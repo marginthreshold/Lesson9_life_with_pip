@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher, executor, types
 
 logging.basicConfig(filename="logging.log", level=logging.INFO)
 
-TOKEN = "5903670332:AAGeNE_x43Itdq9bWxqcsCkzZ7w6jf9y3Bg"
+TOKEN = ""
 MSG = "Поиграем в крестики-нолики?\nИгрок1 ходит X, Игрок2 ходит 0\n"
 
 bot = Bot(token=TOKEN)
