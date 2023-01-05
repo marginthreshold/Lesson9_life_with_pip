@@ -25,7 +25,7 @@ def win(list):
             list[0] == list[3] == list[6] or \
             list[1] == list[4] == list[7] or \
             list[2] == list[5] == list[8] or \
-            list[1] == list[4] == list[8] or \
+            list[0] == list[4] == list[8] or \
             list[2] == list[4] == list[6]:
         return 1
 
