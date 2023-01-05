@@ -88,7 +88,7 @@ async def start_handler(message: types.Message):
             check_list = list(range(1, 10))
             list1 = list(range(1, 10))
             await bot.send_message(user_id, "Нажми /start")
-        elif draw(list1):
+        elif draw(check_list):
             await bot.send_message(user_id, "\n Ничья")
             await bot.send_message(user_id, "Конец игре")
             check_list = list(range(1, 10))
